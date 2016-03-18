@@ -1,0 +1,74 @@
+body {
+	font-family: "lato", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 10px auto;
+	color: #000000;
+	max-width: 900px;
+}
+h1 a {
+	font-size: 60px;
+	font-weight: lighter;
+	color: #F9D483;
+	text-decoration: none;
+
+}
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	color: #000000;
+}
+.navbar {
+	font-size: 25px;
+	font-weight: lighter;
+	color: #D2D2D2;
+	text-decoration: underline;
+	margin: 20px 20px 0px 10px;
+}
+h3 {
+	font-size: 50px;
+	font-weight: lighter;
+	color: #D2D2D2;
+	margin: 80px 0px 0px 0px;
+}
+h2 a {
+	font-size: 50px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.continues {
+	font-size: 20px;
+	text-align: right;
+	margin: 20px 20px 0px 10px; }
+
+	.continues > a {
+		color: #F9D483;
+		text-decoration: none; }
+
+.drop-cap {
+	font-size: 98px;
+    color: #D2D2D2;
+    float: left;
+    margin: -22px 12px -12px 0;
+    line-height: normal;
+}
+.spacious {
+	line-height: 25px;
+}
+.navbar2 {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #F9D483;
+	text-decoration: none;
+}
+.footer {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #D2D2D2;
+	margin: 20px; 
+}
+
+
+
+
