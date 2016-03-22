@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 }
 
+
+
 body {
 	font-family: "lato", sans-serif;
 	font-weight: 300;
@@ -49,13 +51,13 @@ h2 {
 
 }
 h3 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: lighter;
 	color: #D2D2D2;
 	margin: 80px 0px 0px 0px;
 }
 h2 a {
-	font-size: 50px;
+	font-size: 40px;
 	color: #000000;
 	text-decoration: none;
 }
@@ -63,34 +65,71 @@ h2 a {
 .continues {
 	font-size: 20px;
 	text-align: right;
-	margin: 20px 20px 0px 10px; }
+	margin: 20px 20px 0px 10px;
+	padding-bottom: 20px; 
+}
 
 	.continues > a {
 		color: #F9D483;
 		text-decoration: none; }
 
-.drop-cap {
-	font-size: 98px;
-    color: #D2D2D2;
-    float: left;
-    margin: -22px 12px -12px 0;
-    line-height: normal;
-}
-.spacious {
-	line-height: 25px;
-}
-.navbar2 {
-	font-size: 18px;
-	font-weight: lighter;
-	color: #F9D483;
-	text-decoration: none;
-}
-.footer {
-	font-size: 10px;
-	font-weight: lighter;
-	color: #D2D2D2;
-	margin: 20px; 
-}
+		.drop-cap {
+			font-size: 98px;
+			color: #D2D2D2;
+			float: left;
+			margin: -22px 12px -12px 0;
+			line-height: normal;
+		}
+		.spacious {
+			line-height: 25px;
+		}
+		img {
+			max-width: 100%;
+		}
+		section {
+			width: 70%;
+			float: left;
+			padding-right: 50px;
+		}
+		aside{
+			width: 30%;
+			float: left;
+			padding-top: 80px;
+			text-decoration: none;
+		}
+		.more {
+			font-size: 20px;
+			font-weight: bolder;
+			text-align: right;
+			margin: 20px 20px 0px 10px;
+			padding-bottom: 20px; 
+		}
+
+		.navbar2 {
+			font-size: 18px;
+			font-weight: lighter;
+			color: #F9D483;
+			text-decoration: none;
+		}
+		.module {
+			font-size: 18px;
+			font-weight: lighter;
+			color: #grey;
+			
+		}
+		.module a {
+			font-size: 18px;
+			font-weight: lighter;
+			color: #F9D483;
+			text-decoration: none;
+		}
+		.footer {
+			clear:both;
+			font-size: 10px;
+			font-weight: lighter;
+			color: #D2D2D2;
+			margin: 20px; 
+		}
 
 
 
