@@ -123,6 +123,10 @@ h2 a {
 			color: #F9D483;
 			text-decoration: none;
 		}
+		.article-divider {
+			width: 560px;
+    		display: inline-block;
+		}
 		.footer {
 			clear:both;
 			font-size: 10px;
