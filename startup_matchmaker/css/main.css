@@ -21,17 +21,20 @@
     (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
 
     White - #ffffff;
-    Light Grey -
-    Dark Grey -
-    Grey/Black(text color) -
-    Yellow -
-    Red -
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDB0D
+    Red - #FFO121
 */
 
 
 /* Global
    ================================================================ */
 body {
+/*font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Oswald', sans-serif;
   /* Set some defaults! font-family, font-size, color, etc. */
 }
 
@@ -40,11 +43,95 @@ body {
 a {
   /* Set some default styles for anchors (color, text decoration) */
 }
+header {
+  border: 90px solid #3C3A3A;
+  
+}
+h1 > a {
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  font-weight: 700; 
+  color: #ffffff;
+  text-decoration: none;
+}
+li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
+.leftheader {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  
+}
+.navbar {
+  float: right;
+  display: inline-block;
 
 
+}
+.navbar li {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+ 
+}
+span#developers {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+span#designers {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.tagline {
+  text-align: center;
+  clear: both;
+  font-family: 'Merriweather';
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+
+}
+.banner {
+  float: right;
+
+
+}
+.blurb {
+  float: right;
+  max-width: 30%;
+}
+.info1 {
+  float: left;
+  display: inline-block;
+  width: 33.33%;
+  padding-bottom: 20px;
+  
+}
+.info2 {
+  float: right;
+  display: inline-block;
+  width: 33.33%;
+  padding-bottom: 20px;
+  
+}
+.info3 {
+  float: right;
+  display: inline-block;
+  width: 33.33%;
+  padding-bottom: 20px;
+ 
+}
+.footer {
+  clear: both;
+}
 /* Header
    ================================================================ */
 
