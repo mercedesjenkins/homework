@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+/*   border: 1px solid red; */
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    White - #ffffff;
+    Light Grey -
+    Dark Grey -
+    Grey/Black(text color) -
+    Yellow -
+    Red -
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+  /* Set some defaults! font-family, font-size, color, etc. */
+}
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+a {
+  /* Set some default styles for anchors (color, text decoration) */
+}
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+
+/* Header
+   ================================================================ */
+
+
+
+/* Footer
+   ================================================================ */
+
+
+
+/* Navigation
+   ================================================================ */
+
+
+
+/* Buttons
+   ================================================================ */

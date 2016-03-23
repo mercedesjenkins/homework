@@ -1,0 +1,13 @@
+You will need to Google:
+
+* background-image
+* overflow
+* box-shadow (also an inset box-shadow)
+
+Fonts Used: 
+* Source Sans Pro
+* Merriweather
+* Oswald
+
+* See new elements? Like <section>? Look them up to keep growing your tag vocabulary!
+*Having trouble with HTML5 elements? See this flowchart http://html5doctor.com/downloads/h5d-sectioning-flowchart.png
