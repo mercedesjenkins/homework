@@ -41,15 +41,22 @@ body {
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
-  /* Set some default styles for anchors (color, text decoration) */
+  /* Set some default styles for anchors (color, text decoration) */ 
 }
+
+img {
+  width: 100%;
+}
+
 header {
-  border: 90px solid #3C3A3A;
-  
+  background-color: #3C3A3A;
+  border-bottom: 4px solid #FEDB0D;
+  display: inline-block;
+  width: 100%;
 }
 h1 > a {
   font-family: 'Merriweather', serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700; 
   color: #ffffff;
   text-decoration: none;
@@ -131,7 +138,12 @@ span#designers {
 }
 .footer {
   clear: both;
+  color: #ffffff;
+  background-color: #3C3A3A;
+  width: 100%;
+
 }
+
 /* Header
    ================================================================ */
 
