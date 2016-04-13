@@ -1,0 +1,66 @@
+body {
+  padding: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  color: white;
+  background: url("http://static1.squarespace.com/static/501ebb0ae4b0483765b61360/t/52b02a86e4b051b584c50ab4/1387276936178/drake-nothing-was-the-same-album-stream.jpg") no-repeat  center center;
+  background-size: cover;
+  background-position: relative;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+}
+
+.converter-container {
+  width: 340px;
+  margin: 0 auto;
+}
+
+input {
+  margin-right: 20px;
+  padding: 10px;
+  border: 3px solid #dfdfdf;
+  border-radius: 10px;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+}
+
+input:focus {
+  border-color: #afafaf;
+  outline: none;
+
+}
+
+button {
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: #f26629;
+  cursor: pointer;
+  font-family: 'Bangers', cursive;
+}
+
+/* Error styles
+   ================================================================ */
+
+/* This class shoud be added to the input if the user has not entered a value */
+.error {
+  border-color: red;
+}
+
+/* This error message should fade in if the user has not entered a value */
+.error-message {
+  color: white;
+  border: 3px solid red;
+  border-radius: 10px;
+  display: none; /*Hidden by default*/
+  background-color: rgba(255, 0, 0, .6);
+  padding: 10px;
+}
