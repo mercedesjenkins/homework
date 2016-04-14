@@ -58,9 +58,9 @@ button {
 /* This error message should fade in if the user has not entered a value */
 .error-message {
   color: white;
-  border: 3px solid red;
+  border: 3px solid purple;
   border-radius: 10px;
   display: none; /*Hidden by default*/
-  background-color: rgba(255, 0, 0, .6);
+  background-color: #f26629;
   padding: 10px;
 }
