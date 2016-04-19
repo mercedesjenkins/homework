@@ -28,7 +28,6 @@ console.log("currentPosition", images[currentPosition])
 
 
 
-
 //when the user clicks on the previous button 
 $('#prev').on('click', function (){
 
@@ -58,7 +57,6 @@ votes = votes -1;
 if (votes === 0) {
 
 
-
 }
 //if user clicks downvote button -1 likes 
 //each image has its own votes 
@@ -66,8 +64,6 @@ if (votes === 0) {
 
 
 });
-
-
 
 
 
